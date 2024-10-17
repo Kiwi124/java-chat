@@ -8,7 +8,7 @@ public class ChatClient {
     private BufferedReader inputConsole = null;
     private PrintWriter out = null;
     private BufferedReader in = null;
-
+    
     public ChatClient(String address, int port) {
         try {
             socket = new Socket(address, port);
@@ -34,8 +34,13 @@ public class ChatClient {
             System.out.println("Unexpected exception: " + i.getMessage());
         }
     }
-
     public static void main(String[] args) {
         ChatClient client = new ChatClient("127.0.0.1", 5000);
+    }
+
+    public void startClient() {
+    }
+
+    public void sendMessage(String text) {
     }
 }
