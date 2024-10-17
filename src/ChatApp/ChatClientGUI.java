@@ -17,9 +17,9 @@ public class ChatClientGUI extends JFrame {
         super("Chat Application");
         setSize(400, 500);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        Color backgroundColor = new Color(240, 240, 240);
-        Color buttonColor = new Color(75, 75, 75);
-        Color textColor = new Color(50, 50, 50);
+        Color backgroundColor = new Color(161, 0, 255);
+        Color buttonColor = new Color(175, 0, 179);
+        Color textColor = new Color(255, 255, 255);
         Font textFont = new Font("Arial", Font.PLAIN, 14);
         Font buttonFont = new Font("Arial", Font.BOLD, 12);
 
